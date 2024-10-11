@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body,
+h1,
+p{
+    margin: 0;
+}
+:root{
+    --invert: #fff;
+    -ink: #333;
+    --dart: #000;
+    --accept: #2eb5c0;
+}
+
+.hero{
+    background-image: url("assets/HeroBackgroundDesktop\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 56px 32px 144px;
+}
+
+.hero-content{
+    color: var(--invert);
+}
+
+.hero-content h1{
+    color: var(--accept);
+}
